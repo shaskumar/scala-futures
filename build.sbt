@@ -19,4 +19,5 @@ libraryDependencies ++= Seq(
     ExclusionRule(organization = "com.typesafe.akka", name = "akka-stream_2.13"))
 
 )
+libraryDependencies += "com.github.tototoshi" %% "scala-csv" % "1.3.10"
 
